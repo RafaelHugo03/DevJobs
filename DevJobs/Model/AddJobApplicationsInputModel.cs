@@ -1,6 +1,6 @@
 ﻿namespace DevJobs.Model
 {
-    public class AddJobApplicationsInputModel
-    {
-    }
+    public record AddJobApplicationsInputModel(string ApplicantName, string ApplicantEmail, int JobVacancyId);
+    
+    
 }

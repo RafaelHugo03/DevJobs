@@ -2,14 +2,14 @@
 {
     public class JobVacancy
     {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public string  Company { get; set; }
-        public bool IsRemote { get; set; }
-        public string SalaryRamge { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public List<JobApplication> Applications { get; set; }
+        public int Id { get; private set; }
+        public string Title { get; private set; }
+        public string Description { get; private set; }
+        public string  Company { get; private set; }
+        public bool IsRemote { get; private set; }
+        public string SalaryRamge { get; private set; }
+        public DateTime CreatedAt { get; private set; }
+        public List<JobApplication> Applications { get; private set; }
 
         public JobVacancy(string title, string description, string company, bool isRemote, string salaryRamge)
         {

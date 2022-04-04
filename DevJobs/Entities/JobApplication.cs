@@ -2,10 +2,10 @@
 {
     public class JobApplication
     {
-        public int Id { get; set; }
-        public string ApplicantName { get; set; }
-        public string ApplicantEmail { get; set; }
-        public int JobVacancyId { get; set; }
+        public int Id { get; private set; }
+        public string ApplicantName { get; private set; }
+        public string ApplicantEmail { get; private set; }
+        public int JobVacancyId { get; private set; }
 
         public JobApplication(string applicantName, string applicantEmail, int jobVacancyId)
         {
