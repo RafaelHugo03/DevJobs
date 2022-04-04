@@ -11,3 +11,5 @@
 <p> - Entity framework Core 6.0.3</p>
 <p> - Entity framework Core Sql Server 6.0.3</p> 
 <p> - Swagger 6.2.3</p>
+
+<h2> Esse projeto é apenas um treinamento, feito em um workshop online juntamente com o desenvolvedor e dono do canal LuisDev</h2>
