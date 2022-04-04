@@ -22,7 +22,9 @@ namespace DevJobs.Repositories
         public void delete(int id)
         {
             var toDelete = _context.JobVacancies.FirstOrDefault(x => x.Id == id);
+            var applicationToDelete = _context.JobApplications.FirstOrDefault(x => x.JobVacancyId == id);
             _context.Remove(toDelete);
+            _context.Remove(applicationToDelete);
             _context.SaveChanges();
         }
 

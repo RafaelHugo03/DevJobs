@@ -1,4 +1,5 @@
 using DevJobs.Data;
+using DevJobs.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(connection));
+
+builder.Services.AddScoped<IJobVacancyRepository, JobVacancyRepository>();
 
 var app = builder.Build();
 
