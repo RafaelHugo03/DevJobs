@@ -16,4 +16,4 @@
 <p> - A base de dados foi gerada a partir do código utilizando o entity framework core e data annotations. </p>
 <p> - Api construida com Generic Repository Pattern </p>
 
-<h2> Esse projeto é apenas um treinamento, feito em um workshop online juntamente com o desenvolvedor e dono do canal LuisDev</h2>
+<h2> Esse projeto é apenas um treinamento</h2>
