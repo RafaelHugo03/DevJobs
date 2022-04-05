@@ -14,6 +14,6 @@
 <p> - Swagger 6.2.3</p>
 <h3> Técnicas Utilizadas </h3>
 <p> - A base de dados foi gerada a partir do código utilizando o entity framework core e data annotations. </p>
-<p> - Api construida com Generic Repository Pattern </p>
+<p> - Api construida com Repository Pattern </p>
 
 <h2> Esse projeto é apenas um treinamento</h2>
